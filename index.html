@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mi primera página web</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Noticias SA</h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Otras etiquetas</a>
+                    <ul>
+                        <li><a href="#">Fotos</a></li>
+                        <li><a href="#">Videos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Resumen</a></li>
+                <li><a href="#">Contacto</a>
+                    <ul>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Los cambios recientes en el mundo</h2>
+    <section>
+        <h3>Covid-19</h3>
+        <article>
+            <h4>Coronavirus en Ecuador | "Los números se quedan cortos"</h4>
+            <img src="resources/covid.jpg" alt="">
+            <p>La crisis de sanidad que atraviesa Ecuador por el número de muertos 
+                de los últimos días, tanto víctimas de covid-19 como por otras causas, 
+                es más profunda de lo que los informes del gobierno mostraban.</p>
+            
+            <section id="statics">
+                <h3>Estadisticas</h3>
+                <table style="width:100%">
+                    <tr>
+                        <th>Paises</th>
+                        <th>Casos</th>
+                        <th>Muertes</th>
+                        <th>Recuperados</th>
+                    </tr>
+    
+                    <tr>
+                        <td>Ecuador</td>
+                        <td>10.8K</td>
+                        <td>537</td>
+                        <td>1262</td>
+                    </tr>
+                    <tr>
+                        <td>Otros</td>
+                        <td>2.6M </td>
+                        <td>183K</td>
+                        <td>710K</td>
+                    </tr>
+                </table>
+
+        </article> 
+        </section>
+    
+    </section>
+
+    
+
+    <div>
+        <h3>Recomendaciones</h3>
+        <form action="">
+            <label for="titulo">Titulo</label>
+            <input type="text" required>
+            <label for="male">Detalles</label>
+            <textarea name="message" rows="2" cols="30"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+
+    <footer>
+        <small id="derechos">&copy; Copyright 2020, All Rights Reserved</small>
+    </footer>
+
+</body>
+</html>
